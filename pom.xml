@@ -33,7 +33,7 @@
             <version>1.0.1</version>
        </dependency>
 	   
-	   <dependency>
+	    <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-dependencies</artifactId>
 			<version>2.3.0.RELEASE</version>
@@ -51,7 +51,6 @@
            <groupId>org.slf4j</groupId>
            <artifactId>slf4j-api</artifactId>
            <version>${slf4j.version}</version>
-           <scope>provided</scope>
        </dependency>
        
        <dependency>
@@ -71,6 +70,7 @@
 	<modules>
         <module>ralph-sdk-demo-nospring</module>
         <module>ralph-sdk-demo-spring</module>
+		<module>ralph-sdk-demo-spring-boot</module>
     </modules>
 	
 	<repositories>
@@ -86,23 +86,6 @@
         </pluginRepository>
     </pluginRepositories>
 
-	<build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 
 </project>
