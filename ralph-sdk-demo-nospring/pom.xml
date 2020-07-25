@@ -7,7 +7,7 @@
 	<packaging>jar</packaging>
 	<parent>
         <artifactId>ralph-sdk-demo</artifactId>
-        <groupId>com.ezhiyang</groupId>
+        <groupId>io.github.theozhou</groupId>
         <version>1.0.0</version>
     </parent>
 
@@ -22,7 +22,7 @@
 	<dependencies>
 	   
        <dependency>
-	        <groupId>com.ezhiyang</groupId>
+	        <groupId>io.github.theozhou</groupId>
 	        <artifactId>ralph-sdk</artifactId>
        </dependency>
         
