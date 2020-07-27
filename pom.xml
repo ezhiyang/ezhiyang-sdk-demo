@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.github.theozhou</groupId>
-	<artifactId>ralph-sdk-demo</artifactId>
+	<groupId>com.ezhiyang</groupId>
+	<artifactId>ezhiyang-sdk-demo</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
-	<name>ralph-sdk-demo</name>
-	<description>sdk demo for ralph</description>
+	<name>ezhiyang-sdk-demo</name>
+	<description>sdk demo for ezhiyang</description>
    
     
     <properties>
@@ -28,8 +28,8 @@
 	<dependencyManagement>
 	   <dependencies>
 	   <dependency>
-            <groupId>io.github.theozhou</groupId>
-            <artifactId>ralph-sdk</artifactId>
+            <groupId>com.ezhiyang</groupId>
+            <artifactId>ezhiyang-sdk</artifactId>
             <version>1.0.1</version>
        </dependency>
 	   
@@ -68,9 +68,9 @@
 	</dependencyManagement>
 	
 	<modules>
-        <module>ralph-sdk-demo-nospring</module>
-        <module>ralph-sdk-demo-spring</module>
-		<module>ralph-sdk-demo-spring-boot</module>
+        <module>ezhiyang-sdk-demo-nospring</module>
+        <module>ezhiyang-sdk-demo-spring</module>
+		<module>ezhiyang-sdk-demo-spring-boot</module>
     </modules>
 	
 	<repositories>
