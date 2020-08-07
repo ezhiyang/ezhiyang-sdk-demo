@@ -22,6 +22,7 @@
         <jackson.version>2.11.0</jackson.version>
         <velocity.version>1.7</velocity.version>
         <common-io.version>2.4</common-io.version>
+        <sdk.version>1.0.3</sdk.version>
     </properties>
 
 
@@ -30,8 +31,14 @@
 	   <dependency>
             <groupId>com.ezhiyang</groupId>
             <artifactId>ezhiyang-sdk</artifactId>
-            <version>1.0.2</version>
+            <version>${sdk.version}</version>
        </dependency>
+       
+       <dependency>
+            <groupId>com.ezhiyang</groupId>
+            <artifactId>ezhiyang-sdk-spring-boot-starter</artifactId>
+            <version>${sdk.version}</version>
+        </dependency>
 	   
 	    <dependency>
 			<groupId>org.springframework.boot</groupId>

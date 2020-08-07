@@ -13,6 +13,9 @@ public class ContextBuilder {
   public static SdkContext buildContext() {
     ClientConfig config = new ClientConfig(url, clientId, secret, privateKey);
     return new SdkContext(config);
+    // config.getConnectTimeout()
+    //config.setSocketTimeout();
+    //config.setExpiredTime();
   }
   
 }
