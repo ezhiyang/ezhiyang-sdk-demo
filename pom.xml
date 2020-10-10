@@ -22,7 +22,7 @@
         <jackson.version>2.11.0</jackson.version>
         <velocity.version>1.7</velocity.version>
         <common-io.version>2.4</common-io.version>
-        <sdk.version>1.0.3</sdk.version>
+        <sdk.version>1.0.4</sdk.version>
     </properties>
 
 
